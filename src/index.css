@@ -1,0 +1,15 @@
+/* * This file imports the necessary Tailwind CSS layers.
+ * It must be placed in the src/ directory and imported by main.jsx 
+ * for Tailwind classes to function correctly.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * Apply smooth scrolling to the entire body 
+ * (nice for when you add a header/nav bar later)
+*/
+body {
+  scroll-behavior: smooth;
+}
